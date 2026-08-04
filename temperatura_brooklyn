@@ -9,3 +9,15 @@ conversao = (80 - 32)
 tempCelsius = (conversao / 1.8)
 print(tempCelsius)
 
+VERSÃO OTIMIZADA; 
+
+#criar um código que converta a temperatura do Brooklyn (fahrenheit) para Celsius.
+
+#pegar a temperatura de lá
+tempBrooklyn = 80
+
+#fazer a conta para conversão
+tempCelsius = (tempBrooklyn - 32) / 1.8
+
+# Exibe o resultado arredondado para 2 casas decimais
+print(f"A temperatura em Celsius é: {tempCelsius:.2f}°C")
