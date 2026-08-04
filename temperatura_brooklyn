@@ -1,1 +1,11 @@
+#criar um código que converta a temperatura do Brooklyn (fahrenheit) para Celsius.
+
+#pegar a temperatura de lá
+tempBrooklyn = 80
+
+#fazer a conta para conversão
+conversao = (80 - 32)
+
+tempCelsius = (conversao / 1.8)
+print(tempCelsius)
 
