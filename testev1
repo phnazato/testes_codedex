@@ -1,0 +1,20 @@
+#criar um código que soma o valor de dois produtos num restaurante, e que ao pagar, é adicionado 20% a mais como gorjeta para os garçons.
+
+pizza = 50
+#valor da pizza
+
+coca = 10
+#valor da coca
+
+total = (pizza+coca)
+#calcula o total
+
+gorjeta = total * 0.2
+#calcula o total multiplicado por 0.2, que é a mesma coisa de achar quanto é 20%
+
+preçoFinal = (gorjeta+total)
+#soma o valor da gorjeta com o total dos itens
+print('Preço dos Itens;')
+print(preçoFinal)
+print('Taxa de gorjeta;') 
+print(gorjeta)
